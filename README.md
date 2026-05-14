@@ -1,3 +1,10 @@
+
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/1c4bc41a-f97d-47e1-8729-f4821fb83f1b" />
+
+
+
+
 # 🍔 Partner Channel Transformation Team API Demo
 
 Welcome aboard, fellow API adventurer.
@@ -343,46 +350,6 @@ GET /members/:id
 
 ---
 
-# 🧪 Sample CURL Commands
-
-## Get JWT token
-
-```bash
-curl -X POST http://localhost:8080/auth/login \
--H "Content-Type: application/json" \
--d '{"username":"admin","password":"password123"}'
-```
-
----
-
-## Access protected API using API key
-
-```bash
-curl -H "x-api-key: pct-api-key-2024" \
-http://localhost:8080/members
-```
-
----
-
-## Access protected API using JWT
-
-```bash
-curl -H "Authorization: Bearer YOUR_TOKEN" \
-http://localhost:8080/members
-```
-
----
-
-# 🏗️ Tech Stack
-
-- Node.js
-- Express.js
-- JWT (jsonwebtoken)
-- Swagger UI
-- OpenAPI 3.0
-
----
-
 # 😂 Final Thoughts
 
 APIs are basically:
@@ -401,7 +368,3 @@ JWT is just a digitally signed boarding pass saying:
 ---
 
 # 🙌 Happy Learning
-
-If this README made you smile at least once...
-
-mission accomplished.
