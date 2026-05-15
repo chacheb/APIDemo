@@ -8,7 +8,7 @@ const openApiSpec = {
   },
   servers: [
     {
-      url: `http://localhost:${PORT}`,
+      url: `/`,
       description: "Local CodeSandbox server"
     }
   ],
