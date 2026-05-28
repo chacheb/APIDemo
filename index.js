@@ -1,9 +1,11 @@
 const express = require("express");
+const cors = require('cors'); // 1. Import the package
 const jwt = require("jsonwebtoken");
 const swaggerUi = require("swagger-ui-express");
 const openApiSpec = require("./openapi");
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 const PORT = Number(process.env.PORT) || 8080;
